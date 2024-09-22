@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Anele Mpande</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#experience">Evidence of Learning</a></li> -->
+          <li><a href="#projects">Weekly Reflections</a></li>
+          <li><a href="#contact">Writing Journal</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Anele Mpande</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Evidence of Learning</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Weekly Reflections</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Writing Journal</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assests/other-pic.jpg" alt="Anele Mpande profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Anele Mpande</h1>
+        <p class="section__text__p2">Science Student</p>
+        <p class="section__text__p1">      a passionate health systems Student with a genuine love for working with people. My journey into healthcare was driven by my desire to make a positive impact on individuals and communities. I believe that effective health systems are built on strong relationships, collaboration, and empathy. </p>
+        <!-- <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div> -->
+        <div id="socials-container">
+          <!-- <img
+            src="./assests/other-pic.jpg"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          /> -->
+          <!-- <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div> -->
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About </h1>
+      <!-- <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assests/profile-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Evidence of Learning</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            </div>
+          </div>
+          <div class="text-container"> -->
+            <p class="abouts">
+              <div class="hss-portfolio-about">
+                <h1 class="hss-portfolio-title">Welcome to my Health System Sciences (HSS) educational learning portfolio</h1>
+                <p class="hss-portfolio-introduction">
+                    This learning portfolio reflects my academic journey through the HSS 1 course, highlighting my learning progress, achievement, and personal growth. It provides a thorough record of the skills and knowledge I have acquired, emphasizing how I have worked with the various learning outcomes of the HSS course. The purpose of this portfolio is to profile my completed work and reflect on lessons I have learnt in the HSS course and how I can apply them in my future career in healthcare.
+                </p>
+                
+                <h2 class="hss-portfolio-subtitle">HEALTH SYSTEM SCIENCE?</h2>
+                <p class="hss-portfolio-definition">
+                    Health Systems Sciences (HSS) is the study that examines components of a health system to improve how healthcare is delivered and managed. Many people associate it primarily with the quality of healthcare services rendered to individual patients. In reality, that is just the visible tip of the iceberg in health systems science. HSS addresses many underlying interrelated factors that have contributed to the overall efficiency and effectiveness of healthcare services rendered to individual patients. These factors include healthcare policy, systems thinking, and population health management.
+                </p>
+                
+                <p class="hss-portfolio-definition">
+                    As a discipline, Health Systems Science (HSS) focuses on interrelated disciplines: health system sciences, public health, and bioethics and health law. It aims to equip students with skills in analyzing how the healthcare system is organized, delivered, and can be improved, which are crucial skills needed in modern society. It takes a systems-thinking approach, which emphasizes understanding the complex interactions within healthcare settings. It explicates the importance of collaboration among healthcare professionals and developing strategies to enhance patients' experience in healthcare at an affordable cost for everyone.
+                </p>
+            
+                <h2 class="hss-portfolio-purpose">Purpose and Relevance</h2>
+                <p class="hss-portfolio-purpose-description">
+                    Through this ePortfolio, I aim to demonstrate not only my academic achievements but also my ability to apply the principles of Health Systems Science in real-world contexts. By exploring the complexities of healthcare delivery and system management, I hope to contribute to the ongoing efforts to improve healthcare for all.
+                </p>
+            </div>
+            
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <!-- <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Evidence of Learning</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Weekly Reflections</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Week One Reflection</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='Week1.html'"
+              
+              >
+                Reflection 1 
+              </button>
+        
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Week Two Reflection</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='Week2.html'"
+              >
+                Reflection 2
+              </button>
+  
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Week Three Reflection </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='Week3.html'"
+              >
+              Reflection 3
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Writing Journal</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Journal 1</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='J1.html'"
+              
+              >
+                Jornal 1 
+              </button>
+        
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Journal 2</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='J2.html'"
+              >
+               Journal 2
+              </button>
+  
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Journal 3</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='J3.html'"
+              >
+              Journal 3
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-4.png"
+                alt="Project 4"
+                class="project-img"
+              /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Journal 4</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='J4.html'"
+              >
+                Journal 4
+              </button>
+            </div>
+          </div>
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-5.png"
+                alt="Project 5"
+                class="project-img"
+              /> -->
+            <!-- </div>
+            <h2 class="experience-sub-title project-title">Journal 5</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='Week5.html'"
+              >
+                Journal 5
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container"> -->
+              <!-- <img
+                src="./assets/project-6.png"
+                alt="Project 6"
+                class="project-img"
+              /> -->
+            <!-- </div> -->
+            <!-- <h2 class="experience-sub-title project-title">Journal 6</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='Week6.html'"
+              >
+                Journal 6
+              </button>
+            </div>
+          </div> --> 
+          
+        </div>
+      </div>
+      
+    </section>
+
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#experience">Evidence of Learning</a></li> -->
+            <li><a href="#projects">Weekly Reflections</a></li>
+            <li><a href="#contact">Writing Journal</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Anele Mpande. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
